@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  background-color: #D6EEFF;
+}
+header{
+  padding: 3% 3% 0 8%;
+  width: 100%;
+  height: 20vh;
+ 
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu ul li a{
+  margin: 0 40px 0;
+  color: #224259;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.btnone{
+  background: #5693BF;
+  color: red;
+  padding: 16px 24px;
+}
+.menu ul li button{
+  display: flex;
+  color: #FFF;
+  background: #5693BF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 77px;
+  border-style: none;
+}
+
+.left{
+  position: relative;
+}
+.left div{
+  position: absolute;
+}
+.koma div img{
+  position: absolute;
+  background: red;
+}
+section{
+  display: flex;
+  width: 100%;
+  padding: 3% 3% 0 8%;
+  width: 100%;
+}
+.left img{
+  width: 470px;
+  background-size: 100%; 
+  height: 370px;
+  flex-shrink: 0;
+
+}
+.right{
+  margin-left: 70px;
+}
+.right h1{
+  color:#224259;
+  font-family:Varent Grotesk ;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%
+  
+ }
+ .right h1 img{
+  width: 94px;
+  height: 48px;
+  flex-shrink: 0;
+ }
+ .right h1 span{
+  padding: 2px 30px 2px;
+  color: #F17999;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  border: 3px solid #F17999;
+  border-radius: 40px;
+ }
+.right h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FAC252;
+  color:  #224259;
+  width: 136px;
+  height: 136px;
+  border-radius: 68px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  }
+  .bejal{
+    display: flex;
+    margin: 15% 0 0;
+  }
+  .right h6{
+    width: 528px;
+    color: #224259;
+    font-family: SF UI Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 18px;
+  }
+  .five h3{
+    margin-right: 40px;
+  }
